@@ -1,0 +1,42 @@
+
+/home/ubuntu/site/server.js:1
+(function (exports, require, module, __filename, __dirname) { Load the necessa
+                                                                   ^^^
+SyntaxError: Unexpected identifier
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:935:3
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at Object.<anonymous> (/home/ubuntu/site/server.js:20:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at Object.<anonymous> (/home/ubuntu/site/server.js:20:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
